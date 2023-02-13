@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+body{
+  background: green;
+}
+
+
+#sketch-container{
+  background-color: rgb(255,0,0);
+  padding:20px 500px;
+  text-align:center;
+}
+#text-container{
+  background-color: rgb(255,0,0);
+  text-align:center;
+}
