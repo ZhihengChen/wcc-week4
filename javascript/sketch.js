@@ -287,15 +287,15 @@ function addWordsToMarkov(markovModel,text) {
 function addGUI(){
 
   button1 = createButton("Cut Up Phrases");
-  button1.position(610,450);
+  button1.position(580,450);
   button1.mousePressed(changeState1);
 
   button2 = createButton("Mangled Words");
-  button2.position(710,450);
+  button2.position(705,450);
   button2.mousePressed(changeState2);
 
   button3 = createButton("Markov Text");
-  button3.position(810,450);
+  button3.position(830,450);
   button3.mousePressed(changeState3);
 
 }
